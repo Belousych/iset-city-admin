@@ -1,0 +1,52 @@
+{
+  "kind": "singleType",
+  "collectionName": "iset_landings",
+  "info": {
+    "singularName": "iset-landing",
+    "pluralName": "iset-landings",
+    "displayName": "iset-landing",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "aboutTitle": {
+      "type": "string"
+    },
+    "aboutText": {
+      "type": "text"
+    },
+    "aboutPS": {
+      "type": "string"
+    },
+    "background": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "avatar": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
