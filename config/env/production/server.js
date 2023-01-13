@@ -9,3 +9,5 @@ module.exports = ({ env }) => ({
 // module.exports = ({ env }) => ({
 //     url: env('MY_HEROKU_URL'),
 //   });
+
+console.log('ENV', { env })
