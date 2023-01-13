@@ -1,5 +1,5 @@
 module.exports = ({ env }) => ({
-  url: env("PUBLIC_URL", "https://iset-city-admin-production.up.railway.app"),
+  url: env("MY_HEROKU_URL"),
   app: {
     keys: env.array('APP_KEYS'),
   },
