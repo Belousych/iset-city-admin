@@ -28,6 +28,8 @@ module.exports = ({ env }) => ({
       amountLimit: 100,
       apolloServer: {
         tracing: false,
+        playground: true,
+        introspection: false
       },
     },
   },
